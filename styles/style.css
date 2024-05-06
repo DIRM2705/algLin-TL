@@ -92,10 +92,30 @@ h1
     border-bottom: 5px solid #ff00ffff;
 }
 
-.applet iframe
+.applet table
 {
-    display: inline-block;
+    margin: 0 8%;
 }
+
+.applet-info
+{
+    padding: 0 2em 3em 2em;
+    text-align: justify;
+    width: 100%;
+    vertical-align: top;
+    font-size: 22px;
+}
+
+.applet-info button
+{
+    border-radius: 30px;
+    border: none;
+    padding: 15px 10px;
+    font-size: 1em;
+    background: #8400c6;
+    color: #e7fafffe;
+}
+
 
 footer
 {
