@@ -4,7 +4,7 @@
     --gradient-end :#94d4ff;
     --bg-color: #10122b;
     --bg-color-2: #3e137e;
-    --text-color: #e6f1f4fe;
+    --text-color: #e6f1f4;
 }
 
 .definition
@@ -35,29 +35,22 @@
     margin: 0 8%;
 }
 
+.applet:last-child
+{
+    border: 0;
+}
+
 .applet-info
 {
     padding: 0 2em 3em 2em;
-    text-align: justify;
     width: 100%;
     vertical-align: top;
-    font-size: 22px;
+    font-size: 19px;
+    vertical-align: middle;
+    text-align: justify;
 }
 
-.applet-info button
+.applet-info p:first-child
 {
-    border-radius: 30px;
-    border: none;
-    padding: 15px 10px;
-    font-size: 1em;
-    background: var(--gradient-begin);
-    color: var(--text-color);
-    transition: 0.5s;
-}
-
-.applet-info button:hover
-{
-    transform: scale(1.125);
-    background: linear-gradient(160deg, var(--gradient-begin) 30%, var(--gradient-end));
-    cursor:pointer;
+    font-weight: bold;
 }
