@@ -83,6 +83,7 @@ h1
 footer
 {
     background-color: var(--bg-color-2);
+    margin-top: 40px;
 }
 
 footer p:first-child
