@@ -83,7 +83,7 @@
         width: auto;
     }
 
-    .applet-info img
+    .applet-info img, .composition-img
     {
         width: 30%;
     }
